@@ -14,7 +14,6 @@ const PhotoGallery = () => {
         <img
           key={photo.id}
           src={photo.imageUrl}
-          alt={`Photo ${photo.id}`}
           className="photo-gallery__image"
         />
       ))}
