@@ -3,7 +3,7 @@ import React from "react";
 const RepositoryLink = () => {
   return (
     <a
-      href="https://github.com/example-repo"
+      href="https://github.com/Koleznev96/kolezneev_app"
       target="_blank"
       rel="noopener noreferrer"
       style={{
