@@ -1,0 +1,12 @@
+.photo-gallery {
+  display: flex;
+  grid-gap: 10px;
+  margin-bottom: 44px;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo-gallery__image {
+  max-width: 50%;
+  max-height: 200px;
+}

@@ -1,0 +1,77 @@
+.css-feature-video {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 24px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.css-feature-video__container {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 580px) {
+  .css-feature-video__container {
+    height: 240px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .css-feature-video__container {
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .css-feature-video__container {
+    height: 160px;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .css-feature-video__container {
+    height: 130px;
+  }
+}
+
+.css-feature-video__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.css-feature-video__title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.css-feature-video__description {
+  font-size: 16px;
+  margin-bottom: 16px;
+  color: #666;
+}
+
+.css-feature-video__cta {
+  padding: 8px 16px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.css-feature-video__cta:hover {
+  background-color: #0056b3;
+}

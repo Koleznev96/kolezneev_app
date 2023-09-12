@@ -1,0 +1,38 @@
+.about-me {
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.about-me__profile-picture {
+  width: 200px;
+  height: 200px;
+  background-image: url("../../../public/assets/photo_1.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+.about-me__name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.about-me__bio {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.about-me__social-links a {
+  color: #333;
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.about-me__social-links i:hover {
+  color: #007bff;
+  cursor: pointer;
+}
